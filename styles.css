@@ -1,0 +1,101 @@
+/* common styles */
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+/* Defarent Styles */
+.top-level{
+    display: flex;
+    background-image: url("images/med.jpg.jpeg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+.med-level{
+    display: flex;
+    background-image: url("images/top-2.jpg.jpeg");
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 100%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+.end-level{
+    display: flex;
+    margin-left: 90px;
+}
+.end-image{
+   /*  box-shadow: 20px 20px 20px gray; */
+    padding: 0%;
+}
+.end-text{
+    width: 60%;
+}
+.end-image img{
+    width: 60%;
+}
+.half-width{
+    width: 80%;
+    padding: 15px 20px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.half-width img{
+    width: 100%;
+}
+.T-1{
+    color: goldenrod; 
+    font-size: 40px; 
+}
+.T-2{
+    color: rgb(104, 100, 100);
+    font-size: 40px; 
+}
+.T-3{
+    color: rgb(104, 100, 100);
+    font-size: 40px;
+    text-align: center;
+}
+.pra-graf{
+    color: cadetblue;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.pra-graf2{
+    color: cadetblue;
+    font-size: 18px;
+    text-align: center;
+}
+.link-button{
+    background-image: linear-gradient(45deg, tomato, crimson );
+    text-decoration: none;
+    padding: 20px 35px;
+    border-radius: 30px 30px;
+    color: whitesmoke;
+}
+.link-button2{
+    background-image: linear-gradient(45deg, crimson, tomato );
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 30px 30px;
+    color: whitesmoke;
+}
+.viw-other{
+    padding-top: 30%;
+    padding-left: 7%;
+}
+.viw-others{
+    padding-left: 7%;
+}
+.footer-1{
+    color: goldenrod;
+}
+.footer{
+    text-align: center;
+    color: blanchedalmond;
+    background-color: black;
+    margin-top: 10%;
+    padding: 2%;
+}
